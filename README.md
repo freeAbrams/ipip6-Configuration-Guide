@@ -18,6 +18,8 @@ This tutorial is based on:
 
 📌 It aims to help users who have received a BR address, static IPv4, and interface ID from their ISP to establish IPv4-over-IPv6 connectivity on their OpenWrt router.
 
+✅ This method has been confirmed to work on both official-like OpenWrt and QWRT builds.
+
 ---
 ## Setup Procedure
 
@@ -118,5 +120,9 @@ With such mismatched prefixes, the tunnel IPv6 address may not be constructed co
 - Set `IPv6 preference` for the `ipip6` interface
 
 This ensures the correct IPv6 address is assigned and the tunnel will authenticate successfully.
+
+> 🙏 **Acknowledgement**  
+> Special thanks to [@missing233](https://github.com/missing233) for initially helping me set up and troubleshoot this configuration.  
+> This guide is based on the setup we developed and verified together.
 
 > Keywords: OpenWrt, ipip6, IPv4 over IPv6, 4in6, v6plus, static IP, NTT, Japan, OpenWrt tunneling, 固定IPv4, IPv6トンネル

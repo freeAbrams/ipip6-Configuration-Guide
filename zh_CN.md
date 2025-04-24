@@ -18,6 +18,8 @@ This repository provides a detailed guide for configuring an `ipip6` tunnel on O
 
 📌 旨在帮助用户成功建立 IPv4 over IPv6 的 OpenWrt 隧道连接。
 
+✅ 此方法已确认可在主线 OpenWrt 和 QWRT 中正常使用。
+
 ---
 
 ## 配置步骤
@@ -119,5 +121,9 @@ assignment hint 为 `10`：`240b:114:514:8110::1/64`
 - 给 `ipip6` 接口设置 IPv6 preference
 
 确保正确地址组合，才能成功建立隧道。
+
+> 🙏 **致谢**  
+> 特别感谢 [@missing233](https://github.com/missing233) 最初协助我一起完成了本配置的搭建与调试。  
+> 本教程基于我们共同完成并验证的设置方法整理而成。
 
 > Keywords: OpenWrt, ipip6, IPv4 over IPv6, 4in6, v6plus, static IP, NTT, Japan, OpenWrt tunneling, 固定IPv4, IPv6トンネル
