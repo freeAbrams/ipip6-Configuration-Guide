@@ -6,7 +6,7 @@
 
 This repository provides a detailed guide for configuring an `ipip6` tunnel on OpenWrt with NTT-based ISPs in Japan, specifically for users using `v6plus` and a **static IPv4 address**.
 
-このrepoは、NTT系のISP（`v6plus` + **固定IPv4**）を利用する日本国内のユーザー向けに、OpenWrt上で `ipip6` トンネルを構成するための手順を提供します。
+このrepoは、NTT系のISP（`v6plus` + **固定IPv4**）を利用する日本国内のユーザー向けに、OpenWrt上で `ipip6` トンネルを構成するための手順である。
 
 本仓库提供一份面向在日本使用 NTT 系运营商（`v6plus` + **固定 IPv4**）的用户，在 OpenWrt 路由器上手动配置 `ipip6` 隧道的详细教程。
 
@@ -18,7 +18,9 @@ This tutorial is based on:
 
 📌 It aims to help users who have received a BR address, static IPv4, and interface ID from their ISP to establish IPv4-over-IPv6 connectivity on their OpenWrt router.
 
-✅ This method has been confirmed to work on both official-like OpenWrt and QWRT builds.
+✅ This method has been confirmed to work on both **official-like OpenWrt** and **QWRT** builds.
+
+📌 A sample `network` file is available
 
 ---
 ## Setup Procedure

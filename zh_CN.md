@@ -6,7 +6,7 @@
 
 本仓库提供一份面向在日本使用 NTT 系运营商（`v6plus` + **固定 IPv4**）的用户，在 OpenWrt 路由器上手动配置 `ipip6` 隧道的详细教程。
 
-このrepoは、NTT系のISP（`v6plus` + **固定IPv4**）を利用する日本国内のユーザー向けに、OpenWrt上で `ipip6` トンネルを構成するための手順を提供します。
+このrepoは、NTT系のISP（`v6plus` + **固定IPv4**）を利用する日本国内のユーザー向けに、OpenWrt上で `ipip6` トンネルを構成するための手順である。
 
 This repository provides a detailed guide for configuring an `ipip6` tunnel on OpenWrt with NTT-based ISPs in Japan, specifically for users using `v6plus` and a **static IPv4 address**.
 
@@ -18,7 +18,9 @@ This repository provides a detailed guide for configuring an `ipip6` tunnel on O
 
 📌 旨在帮助用户成功建立 IPv4 over IPv6 的 OpenWrt 隧道连接。
 
-✅ 此方法已确认可在主线 OpenWrt 和 QWRT 中正常使用。
+✅ 此方法已确认可在**主线 OpenWrt** 和 **QWRT** 中正常使用。
+
+📌 仓库中有示例 `network` 配置文件
 
 ---
 
