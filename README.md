@@ -76,7 +76,7 @@ After installation, **reboot your router**.
 
 - IPv6 assignment length: `/64`  
 - IPv6 assignment hint: e.g., `1` or `10`  
-- Set both IPv6 modes to `server`
+- Set both RA and DHCPv6 to `server`
 
 ---
 
