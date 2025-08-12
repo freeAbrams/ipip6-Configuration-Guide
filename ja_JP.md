@@ -73,7 +73,7 @@
 
 - IPv6 assignment length：`/64`  
 - IPv6 assignment hint：例）`1` または `10`  
-- 両方のIPv6モードを `server` に設定
+- RAとDHCPv6の両方を `server` に設定
 
 ---
 
